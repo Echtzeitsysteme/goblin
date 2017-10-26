@@ -1,4 +1,4 @@
-The the GOBLIN tool has been integrated into the GRaViTY tool: https://github.com/GRaViTY-Tool
+The GOBLIN tool has been integrated into the GRaViTY tool: https://github.com/GRaViTY-Tool
 
 This repository only hosts the version presented on [FASE 2018](https://www.etaps.org/index.php/2018/fase) and will not receive any maintenance.
 Please use the GRaViTY tool if you are not explicitly interested in this specific version of GOBLIN.
@@ -30,10 +30,11 @@ This site contains the source code of our tool implementation GOBLIN, as well as
 
 ### Requirements:
 
-- Eclipse Modeling Tools (tested with Mars.2)
+- Eclipse Modeling Tools (tested with Oxygen.1)
 - Henshin (available at the Eclipse Marketplace)
 - MOMoT (installation instructions at [http://martin-fleck.github.io/momot/eclipse/updates/](http://martin-fleck.github.io/momot/eclipse/updates/))
 - Hulk (installation instructions at [https://github.com/GRaViTY-Tool/GRaViTY-Tool.github.io](https://github.com/GRaViTY-Tool/GRaViTY-Tool.github.io))
+ 
 
 
 
@@ -50,6 +51,7 @@ This site contains the source code of our tool implementation GOBLIN, as well as
 4. After the optimization several folders will be created containing evaluation data 
   - the folder solutions contains a text file for each final solution on the pareto front. The file will contain the Refactorings of the solution.
   - The folder objectives contains a file listing the different fitness values of all final solutions.
+ 5. The tests can be executed via the Tests.launch file, new tests can be added via the "Test Workspace.launch" file
 
 ## Evaluation
 
@@ -58,6 +60,9 @@ We evaluated GOBLIN on an established corpus of 8 open-source Java projects sele
 - [Moha et al.: DECOR - A Method for the Specification and Detection of Code and Design Smells. In: Transactions on Software Engineering, vol. 36, 2010.](http://www.irisa.fr/triskell/publis/2009/Moha09d.pdf)
 - [Khomh et al.: BDTEX - A GQM-based Bayesian Approach for the Detection of Antipatterns. In: Journal of Systems and Software, vol. 84, 2011.](http://dl.acm.org/citation.cfm?id=1942375)
 - [Ujhelyi et al.: Anti-Pattern Detection with Model Queries: A Comparison of Approaches. In: Proceedings of CSMR-WCRE 2014.](http://publicatio.bibl.u-szeged.hu/4761/1/2498771.pdf)
+- [Peldszus et al.: Continuous detection of design flaws in evolving object-oriented programs using incremental multi-pattern matching. In: Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering.](https://dl.acm.org/citation.cfm?id=2970338)
+
+
 
 Based on these papers and our own investigations for simple examples, the following projects has been selected for the evaluation corpus:
 
@@ -73,5 +78,5 @@ Based on these papers and our own investigations for simple examples, the follow
 
 
 
-All source codes can be found under [test_data](https://github.com/Echtzeitsysteme/goblin-fase-2018/tree/master/test_data). Evaluation results can be found under [evaluation_results](https://github.com/Echtzeitsysteme/goblin-fase-2018/tree/master/evaluation_results).
+The source code for all projects of our corpus can be found under [test_data](https://github.com/Echtzeitsysteme/goblin-fase-2018/tree/master/test_data). Evaluation results can be found under [evaluation_results](https://github.com/Echtzeitsysteme/goblin-fase-2018/tree/master/evaluation_results).
 
