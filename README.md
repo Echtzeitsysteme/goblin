@@ -73,6 +73,5 @@ Based on these papers and our own investigations for simple examples, the follow
 
 
 
-
 All source codes can be found under [test_data](https://github.com/Echtzeitsysteme/goblin-fase-2018/tree/master/test_data). Evaluation results can be found under [evaluation_results](https://github.com/Echtzeitsysteme/goblin-fase-2018/tree/master/evaluation_results).
 
