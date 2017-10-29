@@ -34,7 +34,6 @@ This site contains the source code of our tool implementation GOBLIN, as well as
 - Henshin (installation instructions at https://www.eclipse.org/henshin/install.php)
 - MOMoT (installation instructions at [http://martin-fleck.github.io/momot/eclipse/updates/](http://martin-fleck.github.io/momot/eclipse/updates/))
 - Hulk (installation instructions at [https://github.com/GRaViTY-Tool/GRaViTY-Tool.github.io](https://github.com/GRaViTY-Tool/GRaViTY-Tool.github.io))
- - requires 
  
 
 
